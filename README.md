@@ -4,6 +4,7 @@ Angular2 Google Recaptcha
 The sources for this package are in (https://github.com/rajan-g/angular2-google-recaptcha) repo. Please file issues and pull requests against that repo.
 
 ##Usage
+    npm install angular2-google-recaptcha
 ###1.In index.html page include following script 
     
         <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
