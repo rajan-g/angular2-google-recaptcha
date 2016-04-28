@@ -1,6 +1,6 @@
 {
   "name": "angular2-google-recaptcha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "angular2-google-recaptcha is a simple congigurable angular2 directive",
   "main": "index.js",
   "scripts": {
