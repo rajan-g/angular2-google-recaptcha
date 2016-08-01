@@ -1,5 +1,5 @@
-import {Directive, ElementRef, EventEmitter, Input,Output, OnInit} from 'angular2/core';
-import {NgModel} from 'angular2/common';
+import {Directive, ElementRef, EventEmitter, Input,Output, OnInit} from '@angular/core';
+import {NgModel} from '@angular/common';
 
 declare var grecaptcha: any;
 

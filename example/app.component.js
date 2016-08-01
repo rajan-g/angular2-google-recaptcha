@@ -1,7 +1,7 @@
 /*
  * @author RAJAN G
  */
-System.register(['angular2/core', '../directives/googlerecaptcha.directive'], function(exports_1, context_1) {
+System.register(['@angular/core', '../directives/googlerecaptcha.directive'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -26,7 +26,7 @@ System.register(['angular2/core', '../directives/googlerecaptcha.directive'], fu
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
-                    this.siteKey = "6LdEnxQTAAAAAH-Wa6iKZS3yWBkniZNMdv5X7A-N";
+                    this.siteKey = "6LdEnxewr23AAAAH-Wa6iKZS3yWBkniZNMdv5X7A-N"; // place your key here
                     this.theme = "light"; //you can give any google themes light or dark
                 }
                 AppComponent.prototype.setVerified = function (data) {

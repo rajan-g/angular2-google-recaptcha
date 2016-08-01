@@ -2,7 +2,7 @@
  * @author RAJAN G
  */
 
-import {Component} from 'angular2/core';
+import {Component} from '@angular/core';
 import {GoogleRecaptchaDirective} from '../directives/googlerecaptcha.directive';
 
 @Component({
@@ -14,7 +14,7 @@ import {GoogleRecaptchaDirective} from '../directives/googlerecaptcha.directive'
 })
 export class AppComponent {
     public verified : any;   
-    public siteKey: string = "6LdEnxQTAAAAAH-Wa6iKZS3yWBkniZNMdv5X7A-N";
+    public siteKey: string = "6LdEnxewr23AAAAH-Wa6iKZS3yWBkniZNMdv5X7A-N"; // place your key here
     public theme: string = "light";//you can give any google themes light or dark
     setVerified(data) {
         console.log(data)
