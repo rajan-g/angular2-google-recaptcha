@@ -32,7 +32,7 @@ export class GoogleRecaptchaDirective implements OnInit {
           'sitekey' : this.siteKey,
           'callback' : (data) => {
               if(data) {
-              this.setVerified.emit(true);
+              this.setVerified.emit(data);
               }
           },
           'theme' : this.theme
