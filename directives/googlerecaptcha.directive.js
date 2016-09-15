@@ -37,7 +37,7 @@ System.register(['@angular/core', '@angular/common'], function(exports_1, contex
                             'sitekey': _this.siteKey,
                             'callback': function (data) {
                                 if (data) {
-                                    _this.setVerified.emit(true);
+                                    _this.setVerified.emit(data);
                                 }
                             },
                             'theme': _this.theme
