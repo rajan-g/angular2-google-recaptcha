@@ -1,5 +1,5 @@
 import {Directive, ElementRef, EventEmitter, Input,Output, OnInit} from '@angular/core';
-import {NgModel} from '@angular/common';
+import {NgModel} from '@angular/forms';
 
 declare var grecaptcha: any;
 
